@@ -5,7 +5,7 @@ router.get("/1", (req,res) => {
     res.render('blogs/natas/1')
 })
 
-router.get("/public/natas/2",(req,res) => {
+router.get("/2",(req,res) => {
     res.render('blogs/natas/2')
 })
 
