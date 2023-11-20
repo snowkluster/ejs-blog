@@ -2,7 +2,6 @@ on: push
 jobs:
   build-node:
     runs-on: ubuntu-lastest
-    container: node:20
     steps:
       - run: node --version
       - run: npm --version 
