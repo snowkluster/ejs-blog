@@ -3,7 +3,7 @@ import path from "path"
 import { fileURLToPath } from 'url';
 
 const app = express()
-const port = 3000
+const port = 3000 ||  process.env.PORT
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 app.use(express.static(path.join(__dirname, '../public')))
