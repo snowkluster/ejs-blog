@@ -1,2 +1,2 @@
-# snowkluster.github.io
-Personal Site for Writeups and Blogs 
+# rohankaushik.onrender.com
+rewriting the site using EJS, express and typescript
